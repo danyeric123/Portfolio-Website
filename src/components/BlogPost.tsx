@@ -21,6 +21,15 @@ const BlogPost = ({post}: BlogPostProps) => {
         <h3>{post.title}</h3>
         <h4>{moment(post.pubDate).format('MMMM Do YYYY')}</h4>
         {/* <p>{post.description}</p> */}
+        <div>
+          <p>Categories: {post.categories?.map(cat=>(
+            <>
+            <a href={`https://medium.com/tag/${cat}`} target="_blank" className="link__text" style={{"borderBottom": "none"}}>
+              {cat}
+            </a>,
+            </>
+          ))}</p>
+        </div>
         <div className="work__links">
         <a href={post.link} target="_blank" className="link__text">
         Read More <span>&rarr;</span>
