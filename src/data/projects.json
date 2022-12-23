@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Retro Snake Game",
+    "description": "Built two versions of snake game, one for the browser using Vanilla JS and basic HTML and CSS, and one in Python that used PyGame and NumPy. There was a heavy emphasis on OOP when creating this small app.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "link": {
+      "url": "https://danyeric123.github.io/retro-snake-browser-game/",
+      "live": true
+    },
+    "github_link": "https://github.com/danyeric123/retro-snake-browser-game",
+    "image": { "link": "https://i.imgur.com/qTOhF7W.png" }
+  },
+  {
+    "title": "Trivia Game",
+    "description": "This is a trivia game made in TypeScript and React. It uses the Open Trivia Database for its questions.",
+    "technologies": ["TypeScript", "React"],
+    "link": { "url": "https://danyeric123.github.io/Quiz-Game/", "live": true },
+    "github_link": "https://github.com/danyeric123/Quiz-Game",
+    "image": { "link": "https://i.imgur.com/W1PymOv.png" }
+  },
+  {
+    "title": "Nagging-Media",
+    "description": "Nagging-Media is a social media clone where you can post, like, and comment on friends’ posts. You can login using your Gmail account.",
+    "technologies": [
+      "Socket.io",
+      "Express.js",
+      "Node",
+      "MongoDB",
+      "Mongoose",
+      "Google OAuth"
+    ],
+    "link": { "url": "https://nagging-media.herokuapp.com/", "live": false },
+    "github_link": "https://github.com/danyeric123/social-media-clone",
+    "image": { "link": "../assets/images/nagging-media.png" }
+  },
+  {
+    "title": "OnlyPages",
+    "description": "A group project with where we build a coupled app using MongoDB, Express.js, React, and Node.js to give the user a social media experience around books. Users can review books, add to their different collections, and post about their book-related topic of choice.",
+    "technologies": ["React", "Mongoose", "Node", "MongoDB", "JWT Auth"],
+    "link": {
+      "url": "https://only-pages.herokuapp.com/",
+      "live": false
+    },
+    "github_link": "https://github.com/danyeric123/OnlyPages",
+    "image": { "link": "../assets/images/only-pages.png" }
+  },
+  {
+    "title": "Yum",
+    "description": "Yum is a recipe app where you can search for recipes, add recipes to your recipe box, and automatically add the recipe ingredients to your shopping list with the aisles the recipes can be found in. Once you have tried the recipe, you can review the recipe and post pictures of what you made.",
+    "technologies": ["HTML", "CSS", "Python", "Django", "PostgreSQL", "AWS S3 Buckets"],
+    "link": {
+      "url": "https://yumm-yum.herokuapp.com/",
+      "live": false
+    },
+    "github_link": "https://github.com/danyeric123/yum",
+    "image": { "link": "https://i.imgur.com/h2EbPXV.png" }
+  }
+]

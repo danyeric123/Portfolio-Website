@@ -1,0 +1,28 @@
+[
+  {
+    "section": "Languages",
+    "content": [
+      { "name": "javascript" },
+      { "name": "typescript" },
+      { "name": "python" },
+      { "name": "java" },
+      { "name": "go", "style": { "background-color": "white" } }
+    ]
+  },
+  {
+    "section": "Frameworks",
+    "content": [
+      { "name": "flask", "style": { "background-color": "white" } },
+      { "name": "django" },
+      { "name": "express" }
+    ]
+  },
+  {
+    "section": "Databases",
+    "content": [{ "name": "mongodb" }, { "name": "postgresql" }]
+  },
+  {
+    "section": "Other",
+    "content": [{ "name": "react" }, { "name": "nodejs" }, { "name": "git" }]
+  }
+]
