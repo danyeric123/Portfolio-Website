@@ -6,7 +6,7 @@
     "startDate": "June 2022",
     "description": [
       "Working on the documents team to deliver dynamically created legal documents",
-      "Technologies Used: GRPC, GraphQL, Golang, Terraform, Flask, Python, AWS, Docker"
+      "Technologies Used: gRPC, GraphQL, Golang, Terraform, Flask, Python, AWS, Docker"
     ]
   },
   {
