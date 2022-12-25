@@ -22,7 +22,7 @@ const Skills = () => {
         {skillsSection.map((section) => (
           <>
             <h3>{section["section"]}</h3>
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
+            <div style={{ display: "flex", justifyContent: "flex-start" }}>
               {section["content"].map((skillObj) => (
                 <div className="client-logos">
                   <SkillTitle

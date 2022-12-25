@@ -33,7 +33,6 @@ const BlogPost = ({ post }: BlogPostProps) => {
                 >
                   {cat}
                 </a>
-                ,
               </>
             ))}
           </p>
