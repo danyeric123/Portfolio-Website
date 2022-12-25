@@ -8,6 +8,8 @@ interface SkillSection {
 
 interface SkillObject {
   name: string;
+  link?: string;
+  style?: {};
 }
 
 const Skills = () => {
@@ -26,7 +28,11 @@ const Skills = () => {
               {section["content"].map((skillObj) => (
                 <div className="client-logos">
                   <SkillTitle
-                    badgeUrl={generateGitHubUrl(skillObj.name)}
+                    badgeUrl={
+                      "link" in skillObj
+                        ? skillObj.link
+                        : generateGitHubUrl(skillObj.name)
+                    }
                     style={"style" in skillObj ? skillObj.style : {}}
                   />
                 </div>

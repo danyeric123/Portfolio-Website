@@ -22,7 +22,27 @@
     "content": [{ "name": "mongodb" }, { "name": "postgresql" }]
   },
   {
+    "section": "Certificates",
+    "content": [
+      {
+        "name": "AWS",
+        "link": "https://user-images.githubusercontent.com/5464276/148835226-2b1a2d15-841c-4810-b1e6-91da3d0350b2.png"
+      },
+      {
+        "name": "GCP",
+        "link": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/47478539"
+      }
+    ]
+  },
+  {
     "section": "Other",
-    "content": [{ "name": "react" }, { "name": "nodejs" }, { "name": "git" }]
+    "content": [
+      { "name": "react" },
+      { "name": "nodejs" },
+      { "name": "graphql" },
+      { "name": "git" },
+      { "name": "docker" },
+      { "name": "kubernetes" }
+    ]
   }
 ]
