@@ -6,8 +6,13 @@ const Nav = () => {
       <nav className="nav" role="navigation">
         <ul className="nav__items">
           <li className="nav__item">
-            <a href="#projects" className="nav__link">
-              Projects
+            <a href="#skills" className="nav__link">
+              Skills
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#experience" className="nav__link">
+              Experience
             </a>
           </li>
           <li className="nav__item">
@@ -21,8 +26,8 @@ const Nav = () => {
             </a>
           </li>
           <li className="nav__item">
-            <a href="#skills" className="nav__link">
-              Skills
+            <a href="#projects" className="nav__link">
+              Projects
             </a>
           </li>
           <li className="nav__item">

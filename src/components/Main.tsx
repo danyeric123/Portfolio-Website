@@ -5,11 +5,13 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import BlogPostList from "./BlogPostList";
 import Tutorials from "./Tutorials";
+import ExperienceList from "./ExperienceList";
 
 const Main = () => {
   return (
     <main role="main">
       <Skills />
+      <ExperienceList />
       <BlogPostList />
       <Projects />
       <Tutorials />

@@ -1,0 +1,23 @@
+[
+  {
+    "companyName": "Coalition Inc",
+    "position": "Software Engineer",
+    "startDate": "June 2022",
+    "description": [
+      "Working on the documents team to deliver dynamically created legal documents",
+      "Technologies Used: GRPC, GraphQL, Golang, Terraform, Flask, Python, AWS, Docker"
+    ]
+  },
+  {
+    "companyName": "V! Studios",
+    "position": "Software Engineer",
+    "startDate": "Nov 2021",
+    "description": [
+      "Working with different government and commercial clients on different software projects",
+      "Projects",
+      "Client: NASA, Project Title: Agency Level Portal Service (ALPS)",
+      "Implemented a centralized, cloud-native, scalable, Agency-wide Library web portal that saved NASA billions of dollars by reducing redundancy across NASA sites",
+      "Technologies Used: Wagtail (Django-based CMS), Python, AWS, Docker"
+    ]
+  }
+]
