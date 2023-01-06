@@ -5,7 +5,9 @@
     "position": "Software Engineer",
     "startDate": "June 2022",
     "description": [
-      "Working on the documents team to deliver dynamically created legal documents",
+      "Working on the documents team to deliver dynamically created legal documents for multiple markets across several different continents",
+      "Deprecated old services and moved functionality to smaller microservices cutting down document generation by several factors and improving user experience significantly",
+      "Created an internal testing tool that moved support engineers away from manual testing to automated testing",
       "Technologies Used: gRPC, GraphQL, Golang, Terraform, Flask, FastAPI, Python, AWS ECS, Secrets Manager, S3, Docker"
     ]
   },
