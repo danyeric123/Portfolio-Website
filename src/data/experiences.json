@@ -8,7 +8,7 @@
       "Working on the documents team to deliver dynamically created legal documents for multiple markets across several different continents",
       "Deprecated old services and moved functionality to smaller microservices cutting down document generation by several factors and improving user experience significantly",
       "Created an internal testing tool that moved support engineers away from manual testing to automated testing",
-      "Technologies Used: gRPC, GraphQL, Golang, Terraform, Flask, FastAPI, Python, AWS ECS, Secrets Manager, S3, Docker"
+      "Technologies Used: gRPC, GraphQL, React, Golang, Terraform, Flask, FastAPI, Python, AWS ECS, Secrets Manager, S3, Docker"
     ]
   },
   {
