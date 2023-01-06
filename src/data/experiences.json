@@ -6,7 +6,7 @@
     "startDate": "June 2022",
     "description": [
       "Working on the documents team to deliver dynamically created legal documents",
-      "Technologies Used: gRPC, GraphQL, Golang, Terraform, Flask, Python, AWS, Docker"
+      "Technologies Used: gRPC, GraphQL, Golang, Terraform, Flask, FastAPI, Python, AWS ECS, Secrets Manager, S3, Docker"
     ]
   },
   {
@@ -19,7 +19,10 @@
       "Projects",
       "Client: NASA, Project Title: Agency Level Portal Service (ALPS)",
       "Implemented a centralized, cloud-native, scalable, Agency-wide Library web portal that saved NASA billions of dollars by reducing redundancy across NASA sites",
-      "Technologies Used: Wagtail (Django-based CMS), Python, AWS, Docker"
+      "Technologies Used: Wagtail (Django-based CMS), Python, AWS, Docker",
+      "Client: NASA, Project Title: images.nasa.gov (AVAIL)",
+      "Maintained and expanded images.nasa.gov website",
+      "Technologies Used: Pyramid, Python, AWS S3, RDS, EC2, SSM, Docker"
     ]
   }
 ]
