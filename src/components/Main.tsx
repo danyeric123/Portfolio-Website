@@ -14,7 +14,6 @@ const Main = () => {
       <ExperienceList />
       <BlogPostList />
       <Projects />
-      <Tutorials />
       <About />
     </main>
   );
