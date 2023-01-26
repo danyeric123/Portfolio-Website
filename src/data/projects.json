@@ -42,7 +42,7 @@
       "live": false
     },
     "github_link": "https://github.com/danyeric123/OnlyPages",
-    "image": { "link": "../src/assets/images/only-pages.png" }
+    "image": { "link": "./images/only-pages.png" }
   },
   {
     "title": "Yum",
