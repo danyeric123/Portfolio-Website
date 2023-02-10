@@ -31,18 +31,18 @@
     ],
     "link": { "url": "https://nagging-media.herokuapp.com/", "live": false },
     "github_link": "https://github.com/danyeric123/social-media-clone",
-    "image": { "link": "../src/assets/images/nagging-media.png" }
+    "image": { "link": "../images/nagging-media.png" }
   },
   {
     "title": "OnlyPages",
     "description": "A group project with where we build a coupled app using MongoDB, Express.js, React, and Node.js to give the user a social media experience around books. Users can review books, add to their different collections, and post about their book-related topic of choice.",
     "technologies": ["React", "Mongoose", "Node", "MongoDB", "JWT Auth"],
     "link": {
-      "url": "https://only-pages.herokuapp.com/",
-      "live": false
+      "url": "https://only-pages.fly.dev/",
+      "live": true
     },
     "github_link": "https://github.com/danyeric123/OnlyPages",
-    "image": { "link": "../src/assets/images/only-pages.png" }
+    "image": { "link": "../images/only-pages.png" }
   },
   {
     "title": "Yum",
@@ -56,8 +56,8 @@
       "AWS S3 Buckets"
     ],
     "link": {
-      "url": "https://yumm-yum.herokuapp.com/",
-      "live": false
+      "url": "https://yumm-yum.fly.dev/",
+      "live": true
     },
     "github_link": "https://github.com/danyeric123/yum",
     "image": { "link": "https://i.imgur.com/h2EbPXV.png" }
