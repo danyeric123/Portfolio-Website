@@ -8,7 +8,7 @@ interface Post {
   title: string;
   pubDate?: string;
   link: string;
-  thumbnail: string;
+  thumbnail?: string;
   description: string;
   categories?: string[];
 }
@@ -43,14 +43,16 @@ const BlogPost = ({ post }: BlogPostProps) => {
           </a>
         </div>
       </div>
-      <div className="work__image-box">
-        <img
-          width="600px"
-          src={post.thumbnail}
-          className="work__image"
-          alt={`${post.title}_thumbnail`}
-        />
-      </div>
+      {post.thumbnail && (
+        <div className="work__image-box">
+          <img
+            width="600px"
+            src={post.thumbnail}
+            className="work__image"
+            alt={`${post.title}_thumbnail`}
+          />
+        </div>
+      )}
     </div>
   );
 };
