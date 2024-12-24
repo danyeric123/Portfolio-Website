@@ -126,7 +126,9 @@ img {
 /* ----- Typography ----- */
 /* --------------------------------------- */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Jost", sans-serif;
   font-weight: 400;
   line-height: var(--line-height-small);
@@ -204,11 +206,13 @@ a {
   border: 0;
 }
 
-button:focus, a:focus {
+button:focus,
+a:focus {
   outline: 2px solid var(--pink);
 }
 
-body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) a:focus {
   outline: none;
 }
 
@@ -243,7 +247,8 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
   transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
-.btn:hover::after, .btn:focus::after {
+.btn:hover::after,
+.btn:focus::after {
   right: 0;
   background: var(--pink);
 }
@@ -257,7 +262,8 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
   display: none;
 }
 
-.btn--pink:hover, .btn--pink:focus {
+.btn--pink:hover,
+.btn--pink:focus {
   background: transparent;
 }
 
@@ -287,7 +293,8 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
   outline: none;
 }
 
-.link__text:hover::after, .link__text:focus:after {
+.link__text:hover::after,
+.link__text:focus:after {
   right: 0;
   background: var(--pink);
 }
@@ -694,7 +701,6 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
   margin-bottom: 1rem;
   line-height: var(--line-height-normal);
 }
-
 
 /* Media Queries for Mobile Devices */
 @media (max-width: 900px) {

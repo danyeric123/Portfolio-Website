@@ -33,7 +33,8 @@ const Experience = ({ experience }: ExperienceProps) => {
         )}
         <h4>{experience.position}</h4>
         <h5>
-          {experience.startDate} - {experience.endDate ? experience.endDate : "Present"}
+          {experience.startDate} -{" "}
+          {experience.endDate ? experience.endDate : "Present"}
         </h5>
       </div>
       <div className="experience__description">
