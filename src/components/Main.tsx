@@ -10,9 +10,9 @@ import ExperienceList from "./ExperienceList";
 const Main = () => {
   return (
     <main role="main">
-      <Skills />
       <ExperienceList />
       <BlogPostList />
+      <Skills />
       <Projects />
       <About />
     </main>

@@ -5,10 +5,10 @@
     "position": "Software Engineer",
     "startDate": "June 2022",
     "description": [
-      "Working on the documents team to deliver dynamically created legal documents for multiple markets across several different continents",
-      "Deprecated old services and moved functionality to smaller microservices cutting down document generation by several factors and improving user experience significantly",
-      "Created an internal testing tool that moved support engineers away from manual testing to automated testing",
-      "Technologies Used: gRPC, GraphQL, React, Golang, Terraform, Flask, FastAPI, Python, AWS ECS, Secrets Manager, S3, Docker"
+      "Led migration from monolithic to microservices architecture, reducing document generation latency by 50% and improving system reliability to 99.99% SLO",
+      "Architected and implemented policy validation service achieving 70% coverage, exceeding the quarterly target of 60%",
+      "Collaborated with senior developers and a Principal Engineer to establish a comprehensive system observability strategy, enabling rapid debugging, reducing resolution times, and proactively resolving issues for enhanced customer experience and system reliability.",
+      "Technologies Used: gRPC, GraphQL, React, Golang, Terraform, Terragrunt, Flask, FastAPI, Python, AWS ECS, Secrets Manager, S3, Docker, Redis"
     ]
   },
   {
@@ -16,15 +16,28 @@
     "companyWebsite": "https://www.v-studios.com/it-services.html",
     "position": "Software Engineer",
     "startDate": "Nov 2021",
+    "endDate": "June 2022",
     "description": [
-      "Working with different government and commercial clients on different software projects",
-      "Projects",
-      "Client: NASA, Project Title: Agency Level Portal Service (ALPS)",
-      "Implemented a centralized, cloud-native, scalable, Agency-wide Library web portal that saved NASA billions of dollars by reducing redundancy across NASA sites",
-      "Technologies Used: Wagtail (Django-based CMS), Python, AWS, Docker",
-      "Client: NASA, Project Title: images.nasa.gov (AVAIL)",
-      "Maintained and expanded images.nasa.gov website",
-      "Technologies Used: Pyramid, Python, AWS S3, RDS, EC2, SSM, Docker"
+      "Collaborated on software projects for diverse government and commercial clients, delivering solutions tailored to their specific needs."
+    ],
+    "projects": [
+      {
+        "client": "NASA",
+        "title": "Agency Level Portal Service (ALPS)",
+        "details": [
+          "Led the implementation of a centralized, cloud-native, scalable Agency-wide Library web portal.",
+          "Significantly reduced redundancy across NASA sites, resulting in cost savings amounting to billions of dollars.",
+          "Technologies Used: Wagtail (Django-based CMS), Python, AWS ClouldFormation, S3, RDS, EC2, SSM, Docker"
+        ]
+      },
+      {
+        "client": "NASA",
+        "title": "images.nasa.gov (AVAIL)",
+        "details": [
+          "Maintained and expanded the images.nasa.gov website, contributing to its continued functionality and growth.",
+          "Technologies Used: Pyramid, Python, AWS S3, RDS, EC2, SSM, Docker"
+        ]
+      }
     ]
   }
 ]
