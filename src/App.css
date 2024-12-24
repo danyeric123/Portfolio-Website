@@ -620,3 +620,10 @@ body:not(.user-is-tabbing) a:focus {
     padding: var(--gutter-medium) 0;
   }
 }
+
+.preceding-text {
+  margin: var(--gutter-small-1) 0;
+  padding: var(--gutter-small);
+  line-height: var(--line-height-normal);
+  max-width: var(--container-normal-width);
+}
