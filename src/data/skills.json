@@ -6,13 +6,13 @@
       { "name": "typescript" },
       { "name": "python" },
       { "name": "java" },
-      { "name": "go", "style": { "background-color": "white" } }
+      { "name": "go", "style": { "backgroundColor": "white" } }
     ]
   },
   {
     "section": "Frameworks",
     "content": [
-      { "name": "flask", "style": { "background-color": "white" } },
+      { "name": "flask", "style": { "backgroundColor": "white" } },
       { "name": "django" },
       { "name": "express" }
     ]

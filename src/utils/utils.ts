@@ -1,5 +1,3 @@
-export const toTitleCase = (str: string) => {
-  return str.replace(/\w\S*/g, (txt: string) => {
-    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-  });
-};
+// This file is kept for future utility functions
+// The toTitleCase function has been removed as it's no longer needed
+export {};
