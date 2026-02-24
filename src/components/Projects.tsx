@@ -20,17 +20,17 @@ const Projects = () => {
           </p>
 
           {/* Prominent disclaimer card */}
-          <Card className="max-w-4xl mx-auto mb-8 border-amber-200 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/20">
+          <Card className="max-w-4xl mx-auto mb-8 border-primary/30 bg-primary/5">
             <CardContent className="p-6">
               <div className="flex items-start gap-3">
-                <AlertCircle className="h-5 w-5 text-amber-600 dark:text-amber-400 mt-0.5 flex-shrink-0" />
+                <AlertCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-left space-y-3">
-                  <p className="text-sm font-medium text-amber-800 dark:text-amber-200">
+                  <p className="text-sm font-medium text-foreground">
                     <strong>Portfolio Context:</strong> These represent early
                     career projects and some personal experiments I remembered
                     to showcase here.
                   </p>
-                  <p className="text-sm text-amber-700 dark:text-amber-300">
+                  <p className="text-sm text-muted-foreground">
                     Most of my professional work is either available on{" "}
                     <a
                       href="https://github.com/danyeric123"

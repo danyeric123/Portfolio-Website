@@ -1,9 +1,22 @@
 [
   {
+    "companyName": "Capital One",
+    "companyWebsite": "https://www.capitalone.com/",
+    "position": "Software Engineer",
+    "startDate": "August 2025",
+    "description": [
+      "Designed a mission-critical parity checker for the Low Latency Data Store (LLDS) required to handle 2,000 requests/sec; the lambda-based event-driven architecture was praised by a Distinguished Engineer and is now processing 16M records per day in production",
+      "Architected OpenSearch-based search for Userspaces (a governance platform scaling from 200 to 2,000 users in a year), delivering a working POC in one week with ≤200ms latency — a 10x improvement over prior SQL LIKE queries on a system handling 92M writes/day",
+      "Serving as the only senior developer in the department's AI-Assisted Coding Community of Experts (CoE), driving tool adoption from 3 teams to department-wide (5+ teams); initiative backed by EVP with a goal of saving $10M in developer time",
+      "Technologies Used: Python, AWS Lambda, AWS OpenSearch, SQS, Databricks, React, Zustand, React Query, New Relic"
+    ]
+  },
+  {
     "companyName": "Coalition Inc",
     "companyWebsite": "https://www.coalitioninc.com/",
     "position": "Software Engineer",
     "startDate": "June 2022",
+    "endDate": "July 2025",
     "description": [
       "Led migration from monolithic to microservices architecture, reducing document generation latency by 50% and improving system reliability to 99.99% SLO",
       "Architected and implemented policy validation service achieving 70% coverage, exceeding the quarterly target of 60%",

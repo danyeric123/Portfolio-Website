@@ -115,6 +115,7 @@
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 0.1em;
   }
 
   .nav-link {
